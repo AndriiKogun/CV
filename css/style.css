@@ -39,39 +39,37 @@ body {
     background-color: #ffffff;
 }
 
-.soft-skills-container {
-    background: coral;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 60px;
-}
 .contacts-container {
-    background: crimson;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
 }
 
 .tech-skills-container {
-    background: darkgreen;
-    margin-top: 54px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
 }
 
 .skills-item {
+    color: #ff6b08; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.skills-item-text {
     color: #cbced2;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.contacts-title {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
+.soft-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
 }
 
 .contacts-link {
@@ -91,13 +89,13 @@ body {
     margin-bottom: 20px;
 }
 
-.skills-title {
+.sidebar-title {
     color: #ffffff;
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
 
 
