@@ -7,42 +7,53 @@
     <meta name="keywords" content="Резюме, верстка, работа, качественно, быстро, хорошие цены">
     <meta name="description" content="Резюме которое стоит посмотреть ;)">
     <title>Resume</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body >
 
     <!-- Main Container -->
-    <div> 
-        <aside>
-            <img src="./img/photo.jpg" alt="My Photo">
+    <div class="main-container"> 
+        <aside class="sidebar">
+            <img class="picture" src="./img/photo.jpg" alt="My Photo">
 
             <!-- Contacts Container -->
-            <div>
-                <h3>Contacts</h3>
-                <div>C: <a href="+38 096 513 24 98">+38 096 513 24 98</a> </div>
-                <div>M: <a href="mailto:andrzej.kogun@gmail.com">andrzej.kogun@gmail.com</a> </div>
+            <div class="contacts-container">
+                <h3 class="contacts-title">Contacts</h3>
+                <div> 
+                    <span class="contacts-link-type">C</span>
+                    <a class="contacts-link" href="+38 096 513 24 98">+38 096 513 24 98</a> 
+                </div>
+                <div>
+                    <span class="contacts-link-type">M</span>
+                    <a class="contacts-link" href="mailto:andrzej.kogun@gmail.com">andrzej.kogun@gmail.com</a> </div>
             </div>
 
-            <!-- Skills Container -->
-            <div>
-                <h3>Tech Skills</h3>
+            <!-- Tech Skills Container -->
+            <div class="tech-skills-container">
+                <h3 class="skills-title">Tech Skills</h3>
                 <ul>
-                    <li>Swift</li>
-                    <li>Objective-C</li>
-                    <li>Cocoapods</li>
-                    <li>Git</li>
+                    <li class="skills-item">Swift</li>
+                    <li class="skills-item">Objective-C</li>
+                    <li class="skills-item">Cocoapods</li>
+                    <li class="skills-item">Git</li>
                 </ul>
-
-                <h3>Soft Skils</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Team Work</li>
-                </ul>
-
             </div>
+
+            <!-- Soft Skills Container -->
+            <div class="soft-skills-container">
+                <h3 class="skills-title">Soft Skils</h3>
+                <ul class="skills-item">
+                    <li class="skills-item">Scrum</li>
+                    <li class="skills-item">Team Work</li>
+                </ul>
+            </div>
+
         </aside>
 
         <!-- About Container -->
-        <div>
+        <div class="about-container">
             <!-- About Me Main Container -->
             <div>
                 <h2>iOS Developer</h2>
