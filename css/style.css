@@ -7,18 +7,21 @@
 body {
     font-family: 'Montserrat';
     background-color: #f5f7fa;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-container {
     display: flex;
-    flex-direction: row;
     background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .sidebar {
     width: 370px;
-    height: 1319px;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #1e2939;
@@ -30,7 +33,6 @@ body {
 
 .about-container {
     width: 1200px;
-    height: 1319;
     padding-top: 108px;
     padding-bottom: 108px;
     padding-left: 90px;
@@ -77,7 +79,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    
 }
 
 .contacts-link-type {
@@ -98,5 +99,131 @@ body {
     margin-bottom: 6px;
 }
 
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+}
 
+.fullname {
+    padding-top: 24px;
+    font-size: 45px;
+    font-weight: 700;
+}
 
+.description {
+    padding-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description-container {
+    width: 412px;
+}
+
+.about-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projects-dots {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tech-skill {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projects-item {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+.company-container {
+    padding-top: 18px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.dates-interval {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.job-name {
+    color: #ff6b08; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.date-devider {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profession-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+
+.profession-description-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.about-item-container {
+    width: 520px;
+    margin-top: 48px;
+}
+
+.education-item-container {
+    padding-top: 12px;
+}
+
+.education-name {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 6px;
+}
+
+.education-spetialization {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 8px;
+}
